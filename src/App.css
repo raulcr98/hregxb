@@ -1,0 +1,90 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.Content{
+  height: 100vh;
+  width: 100%;
+}
+
+.App {
+  display: block;
+  padding: 5.36% 0;
+  width: 100%;
+  transition: .5s ease all;
+  background: rgba(255, 255, 255, .1);
+}
+
+.form {
+  padding: 10% 0;
+  text-align: center;
+}
+
+input {
+  display: inline-block;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  font-size: .8em;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  transition: .2s ease all;
+}
+
+input:focus {
+  border: 2px solid grey;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  font-size: .8em;
+  text-align: center;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  transition: .2s ease all;
+}
+
+button:hover {
+  background: grey;
+  color: white;
+  border: 2px solid grey;
+}
+
+.Menu {
+  padding-left: 4em;
+  padding-right: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Nav li {
+  list-style: none;
+  padding-left: 2em;
+  padding-right:  2em;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
