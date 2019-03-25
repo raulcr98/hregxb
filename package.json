@@ -2,7 +2,7 @@
   "name": "hregxb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raulcr98.github.io/hregxb/",
+  "homepage": "https://raulcr98.github.io/hregxb",
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",

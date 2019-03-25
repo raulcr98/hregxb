@@ -41,9 +41,8 @@ class App extends Component {
         <div className="Menu">
           <h1>hregxb</h1>
           <ul className="Nav">
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Telegram</a></li>
-            <li><a href="#">Twitter</a></li>
+            <li><img src={require('./github.png')} width="90px" /></li>
+            <li><a href="#">View Repo</a></li>
           </ul>
         </div>
         <div className="App">
