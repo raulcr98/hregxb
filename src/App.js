@@ -35,6 +35,17 @@ class App extends Component {
     this.setState({ rgb });
   }
 
+  copyToClipboard = () => {
+    let text = this.state.rgb;
+    console.log('text', text);
+    var textField = document.createElement('textarea');
+    textField.innerText = text;
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand('copy');
+    textField.remove();
+  }
+
   render() {
     return (
       <div className="Content" style={{background: this.state.rgb}}>
@@ -50,7 +61,7 @@ class App extends Component {
             <input type="text" name="hex" maxlength="15" placeholder={this.state.hex} onChange={this.calculate} />
             <input type="text" name="rgb" placeholder={this.state.rgb} disabled />
             <br />
-            <button>Convert</button>
+            <button onClick={this.copyToClipboard}>Copy</button>
           </div>
         </div>
       </div>  
