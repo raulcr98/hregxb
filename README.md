@@ -1,3 +1,3 @@
-# [hregxb](https://raulcr98.github.io/hregxb/)
+# hregxb
 * Convert colors from hexadecimal to rgb.
-* Repo Link [https://github.com/raulcr98/hregxb](https://github.com/raulcr98/hregxb)
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJu5uBYdEsitfaD3ooPMeKl_XQQVTodPnicYF6eM2W0UNUBXDiUA
